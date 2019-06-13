@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,34 +14,56 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <title>ALMUG &mdash; GENERAL CONSTRUCTION</title>
   </head>
 
   <body>
-    <div class="overflow-fixer">
-      <div class="container">
-        <header class="header">
-          <div class="header__logo">
-            <img src="./img/logo.png" alt="Logo" />
-          </div>
-          <nav class="header__navigation">
-            <ul class="header__navigation-items">
-              <li class="header__navigation-items-item">
-                <a href="/references">References</a>
-              </li>
-              <li class="header__navigation-items-item">
-                <a href="#">About us</a>
-              </li>
-              <li class="header__navigation-items-item">
-                <a href="#">Services</a>
-              </li>
-              <li class="header__navigation-items-item">
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-        <main>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <img src="./img/logo.png" alt="Logo" />
+        </div>
+        <nav class="header__navigation">
+          <ul class="header__navigation-items">
+            <li class="header__navigation-items-item">
+              <a href="#references">References</a>
+            </li>
+            <li class="header__navigation-items-item">
+              <a href="#about-us">About us</a>
+            </li>
+            <li class="header__navigation-items-item">
+              <a href="#services">Services</a>
+            </li>
+            <li class="header__navigation-items-item">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle-menu">
+          <ul>
+            <li class="header__navigation-items-item">
+              <a href="#references">References</a>
+            </li>
+            <li class="header__navigation-items-item">
+              <a href="#about-us">About us</a>
+            </li>
+            <li class="header__navigation-items-item">
+              <a href="#services">Services</a>
+            </li>
+            <li class="header__navigation-items-item">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+      </header>
+    </div>
+    <main>
+      <div class="overflow-fixer">
+        <div class="container">
           <section class="main-section">
             <p class="main-section__paragraph">
               Total contractor with experience in the entire spectrum of the
@@ -61,13 +83,16 @@
                 </li>
               </ul>
             </div>
+    </div>
           </section>
-          <section class="references">
+
+        <div class="container">
+          <section class="references" id="references">
             <h1 class="references__heading-one">References</h1>
             <div class="references__cards-container">
               <div class="references__cards-container-item-1">
                 <div class="references__cards-container-item-1-box">
-                    <img src="/img/img-1.jpg" alt="Image 1" />  
+                  <img src="../img/img-1.jpg" alt="Image 1" />
                   <p>
                     Stucktech 1
                   </p>
@@ -75,7 +100,7 @@
               </div>
               <div class="references__cards-container-item-2">
                 <div class="references__cards-container-item-2-box">
-                  <img src="/img/img-1.jpg" alt="Image 1" />
+                  <img src="../img/img-1.jpg" alt="Image 1" />
                   <p>
                     Stucktech 2
                   </p>
@@ -83,7 +108,7 @@
               </div>
               <div class="references__cards-container-item-3">
                 <div class="references__cards-container-item-3-box">
-                  <img src="/img/img-1.jpg" alt="Image 1" />
+                  <img src="../img/img-1.jpg" alt="Image 1" />
                   <p>
                     Both
                   </p>
@@ -91,7 +116,7 @@
               </div>
               <div class="references__cards-container-item-4">
                 <div class="references__cards-container-item-4-box">
-                  <img src="/img/img-1.jpg" alt="Image 1" />
+                  <img src="../img/img-1.jpg" alt="Image 1" />
                   <p>
                     Pool in Witten
                   </p>
@@ -99,7 +124,7 @@
               </div>
               <div class="references__cards-container-item-5">
                 <div class="references__cards-container-item-5-box">
-                  <img src="/img/img-1.jpg" alt="Image 1" />
+                  <img src="../img/img-1.jpg" alt="Image 1" />
                   <p>
                     New Fasade for a Productionbuildung in Schwelm
                   </p>
@@ -107,7 +132,7 @@
               </div>
               <div class="references__cards-container-item-6">
                 <div class="references__cards-container-item-6-box">
-                  <img src="/img/img-1.jpg" alt="Image 1" />
+                  <img src="../img/img-1.jpg" alt="Image 1" />
                   <p>
                     Hall for Aluminium recycling
                   </p>
@@ -118,8 +143,9 @@
               <a href="#" class="references__cta-button">View More</a>
             </div>
           </section>
-
-          <section class="about-us">
+        </div>
+        <div class="container">
+          <section class="about-us" id="about-us">
             <h1 class="about-us__heading-one">About us</h1>
             <div class="about-us-main">
               <div class="about-us-main__desc">
@@ -136,7 +162,9 @@
               </div>
             </div>
           </section>
-          <section class="our-services">
+        </div>
+        <div class="container">
+          <section class="our-services" id="services">
             <div class="our-services__worker"></div>
             <div class="our-services-text">
               <h1 class="our-services-text__heading-one">Our services</h1>
@@ -204,10 +232,13 @@
               </ul>
             </div>
           </section>
+        </div>
+        <div class="container">
           <section class="partners">
             <h1 class="partners__heading-one">Partners</h1>
-            <div class="partners__grid-container">
-              <figure class="partners__grid-container-item-1">
+            <div class="partners__slider">
+              <div class="partners__slider-item">
+                <figure class="partners__slider-item-figure">
                 <img src="./img/p-logo.png" alt="Partner Logo 1" />
                 <figcaption>
                   <address>
@@ -217,30 +248,64 @@
                   </address>
                 </figcaption>
               </figure>
-              <figure class="partners__grid-container-item-2">
+            </div>
+              <div class="partners__slider-item"><figure class="partners__slider-item-figure">
                 <img src="./img/p-logo.png" alt="Partner Logo 1" />
                 <figcaption>
                   <address>
-                    Elektro Stupar <br />
+                    Elektro Stupar: <br />
                     Inh.: Pero Stupar <br />
-                    Sattlerstr. <br />
+                    Sattlerstr. <br>
                     42105 Wuppertal
                   </address>
                 </figcaption>
-              </figure>
-              <figure class="partners__grid-container-item-3">
+              </figure></div>
+              <div class="partners__slider-item"><figure class="partners__slider-item-figure">
                 <img src="./img/p-logo.png" alt="Partner Logo 1" />
                 <figcaption>
                   <address>
-                    K-Log <br />
-                    Inh.: RemigiusZ Klewicz
+                    Partner: <br />
+                    S-Bau <br />
+                    Inh.: Sasa Stepanovic
                   </address>
                 </figcaption>
-              </figure>
-              >
+              </figure></div>
+              <div class="partners__slider-item"><figure class="partners__slider-item-figure">
+                <img src="./img/p-logo.png" alt="Partner Logo 1" />
+                <figcaption>
+                  <address>
+                    Partner: <br />
+                    S-Bau <br />
+                    Inh.: Sasa Stepanovic
+                  </address>
+                </figcaption>
+              </figure></div>
+              <div class="partners__slider-item"><figure class="partners__slider-item-figure">
+                <img src="./img/p-logo.png" alt="Partner Logo 1" />
+                <figcaption>
+                  <address>
+                    Partner: <br />
+                    S-Bau <br />
+                    Inh.: Sasa Stepanovic
+                  </address>
+                </figcaption>
+              </figure></div>
+              <div class="partners__slider-item"><figure class="partners__slider-item-figure">
+                <img src="./img/p-logo.png" alt="Partner Logo 1" />
+                <figcaption>
+                  <address>
+                    Partner: <br />
+                    S-Bau <br />
+                    Inh.: Sasa Stepanovic
+                  </address>
+                </figcaption>
+              </figure></div>
             </div>
           </section>
-          <section class="contact-us">
+        </div>
+        <div class="container">
+        <section class="contact-us" id="contact">
+          
             <div class="contact-us__info">
               <h1 class="contact-us__info-heading-one">Contact us</h1>
               <p>Impressum</p>
@@ -265,26 +330,39 @@
                 <input type="submit" value="Send" />
               </form>
             </div>
-          </section>
-        </main>
+
+        </section>
+        </div>
       </div>
-      <footer class="footer">
-        <div class="footer__copyright">
-          <p>
-            Copyright © 2019 A-LM Architektur Leonid Mikhailov. All Rights
-            Reserved.
-          </p>
-        </div>
-        <div class="footer__social-icons">
-          <ul class="footer__social-icons-list-items">
-            <li class="footer__social-icons-list-items-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="footer__social-icons-list-items-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li class="footer__social-icons-list-items-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-          </ul>
-        </div>
-      </footer>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </main>
+    
+    <footer class="footer">
+      <div class="container">
+      <div class="footer__copyright">
+        <p>
+          Copyright © 2019 A-LM Architektur Leonid Mikhailov. All Rights
+          Reserved.
+        </p>
+      </div>
+      <div class="footer__social-icons">
+        <ul class="footer__social-icons-list-items">
+          <li class="footer__social-icons-list-items-item">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="footer__social-icons-list-items-item">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="footer__social-icons-list-items-item">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </footer>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

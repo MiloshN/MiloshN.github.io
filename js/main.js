@@ -30,7 +30,7 @@ $(document).ready(function() {
     arrows: false,
     responsive: [
       {
-        breakpoint: 426,
+        breakpoint: 425,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -47,7 +47,7 @@ $(document).ready(function() {
       },
       {
         breakpoint: 320,
-        setting: {
+        settings: {
           slidesToScroll: 1,
           slidesToShow: 1,
           infinite: true
@@ -76,8 +76,8 @@ $(document).ready(function() {
     });
   } else {
     $(".header__navigation").show();
-    $(".cross").hide();
-    $(".toggle-menu").hide();
-    $(".hamburger").hide();
+    $(".cross").remove();
+    $(".toggle-menu").remove();
+    $(".hamburger").remove();
   }
 });

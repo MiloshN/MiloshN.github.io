@@ -36,12 +36,28 @@ $(document).ready(function() {
           slidesToScroll: 1,
           infinite: true
         }
+      },
+      {
+        breakpoint: 390,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 320,
+        setting: {
+          slidesToScroll: 1,
+          slidesToShow: 1,
+          infinite: true
+        }
       }
     ]
   });
   let resize = $(window).width();
   if (resize <= 460) {
-    $(".header__navigation").hide();
+    $(".header__navigation").remove();
     $(".cross").hide();
     $(".toggle-menu").hide();
     $(".hamburger").show();

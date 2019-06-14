@@ -179,7 +179,7 @@ body {
       right: 5px; } }
   @media only screen and (max-width: 20em) {
     .hamburger {
-      right: -5px; } }
+      right: 0px; } }
 
 .cross {
   background: none;
@@ -200,7 +200,7 @@ body {
       right: 5px; } }
   @media only screen and (max-width: 20em) {
     .cross {
-      right: -5px; } }
+      right: 0px; } }
 
 .toggle-menu {
   z-index: 1000000;

@@ -167,7 +167,7 @@ body {
   right: -5px;
   line-height: 45px;
   padding: 5px 15px 0px 15px;
-  color: #999;
+  color: white;
   border: 0;
   font-size: 2.5em;
   font-weight: bold;
@@ -177,17 +177,20 @@ body {
   @media only screen and (max-width: 26.6em) {
     .hamburger {
       right: 5px; } }
+  @media only screen and (max-width: 20em) {
+    .hamburger {
+      right: -5px; } }
 
 .cross {
   background: none;
   position: absolute;
-  top: 45px;
+  top: 35px;
   right: -5px;
   line-height: 45px;
   padding: 5px 15px 0px 15px;
-  color: #999;
+  color: white;
   border: 0;
-  font-size: 5.5em;
+  font-size: 2.5em;
   font-weight: bold;
   cursor: pointer;
   outline: none;
@@ -195,6 +198,9 @@ body {
   @media only screen and (max-width: 26.6em) {
     .cross {
       right: 5px; } }
+  @media only screen and (max-width: 20em) {
+    .cross {
+      right: -5px; } }
 
 .toggle-menu {
   z-index: 1000000;
@@ -218,7 +224,8 @@ body {
 .toggle-menu li {
   display: block;
   padding: 15px 0 15px 0;
-  border-bottom: #dddddd 1px solid; }
+  border-bottom: #dddddd 1px solid;
+  font-family: "Muli", sans-serif; }
 
 .toggle-menu li:hover {
   display: block;
@@ -229,19 +236,19 @@ body {
 .toggle-menu ul li a {
   text-decoration: none;
   margin: 0px;
-  color: #666; }
+  color: #ff5a1d; }
 
 .toggle-menu ul li a:hover {
-  color: #666;
+  color: #ff5a1d;
   text-decoration: none; }
 
 .toggle-menu a {
   text-decoration: none;
-  color: #666; }
+  color: #ff5a1d; }
 
 .toggle-menu a:hover {
   text-decoration: none;
-  color: #666; }
+  color: #ff5a1d; }
 
 .container {
   max-width: 114rem;

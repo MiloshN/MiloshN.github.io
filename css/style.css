@@ -922,6 +922,7 @@ body {
       margin-bottom: 2rem; } }
   .partners__heading-one {
     font-size: 5rem;
+    margin-top: 1rem;
     position: relative;
     font-family: "Muli";
     font-weight: bold;

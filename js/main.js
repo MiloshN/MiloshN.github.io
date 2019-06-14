@@ -62,14 +62,14 @@ $(document).ready(function() {
     $(".toggle-menu").hide();
     $(".hamburger").show();
     $(".hamburger").on("click", function() {
-      $(".toggle-menu").slideToggle("slow", function() {
+      $(".toggle-menu").slideToggle("fast", function() {
         $(".hamburger").hide();
         $(".cross").show();
       });
     });
 
     $(".cross").on("click", function() {
-      $(".toggle-menu").slideToggle("slow", function() {
+      $(".toggle-menu").slideToggle("fast", function() {
         $(".cross").hide();
         $(".hamburger").show();
       });

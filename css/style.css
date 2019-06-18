@@ -337,15 +337,6 @@ body {
       .header__logo > img {
         width: 20.6em;
         height: 2.25rem; } }
-  @media only screen and (max-width: 26.6em) {
-    .header__navigation {
-      display: none; } }
-  @media only screen and (max-width: 24.4em) {
-    .header__navigation {
-      display: none; } }
-  @media only screen and (max-width: 20em) {
-    .header__navigation {
-      display: none; } }
   .header__navigation-items {
     list-style-type: none;
     display: flex;
@@ -353,6 +344,15 @@ body {
     line-height: 1.5;
     font-size: 1.8rem;
     color: var(--color-white); }
+    @media only screen and (max-width: 26.6em) {
+      .header__navigation-items {
+        display: none; } }
+    @media only screen and (max-width: 24.4em) {
+      .header__navigation-items {
+        display: none; } }
+    @media only screen and (max-width: 20em) {
+      .header__navigation-items {
+        display: none; } }
     @media only screen and (max-width: 160em) {
       .header__navigation-items {
         font-size: 2rem; } }

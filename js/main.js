@@ -57,27 +57,28 @@ $(document).ready(function() {
   });
   let resize = $(window).width();
   if (resize <= 460) {
-    $(".header__navigation").remove();
+    $(".header__navigation").hide();
     $(".cross").hide();
     $(".toggle-menu").hide();
     $(".hamburger").show();
     $(".hamburger").on("click", function() {
-      $(".toggle-menu").slideToggle("fast", function() {
+      $(".toggle-menu").slideToggle("slow", function() {
         $(".hamburger").hide();
         $(".cross").show();
       });
     });
 
     $(".cross").on("click", function() {
-      $(".toggle-menu").slideToggle("fast", function() {
+      $(".toggle-menu").slideToggle("slow", function() {
         $(".cross").hide();
         $(".hamburger").show();
       });
     });
   } else {
     $(".header__navigation").show();
-    $(".cross").remove();
-    $(".toggle-menu").remove();
-    $(".hamburger").remove();
+    $(".cross").hide();
+    $(".toggle-menu").hide();
+    $(".hamburger").hide();
   }
+  baguetteBox.run(".references__gallery");
 });

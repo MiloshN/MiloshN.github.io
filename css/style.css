@@ -190,7 +190,6 @@ body {
 .hamburger {
   background: none;
   position: absolute;
-  display: none;
   top: 35px;
   right: -5px;
   line-height: 45px;
@@ -202,10 +201,16 @@ body {
   cursor: pointer;
   outline: none;
   z-index: 10000000000000; }
+  @media only screen and (max-width: 160em) {
+    .hamburger {
+      display: none; } }
   @media only screen and (max-width: 26.6em) {
     .hamburger {
       right: 5px; } }
   @media only screen and (max-width: 20em) {
+    .hamburger {
+      right: 1px; } }
+  @media only screen and (max-width: 24.4em) {
     .hamburger {
       right: 1px; } }
 

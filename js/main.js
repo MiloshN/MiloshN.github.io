@@ -55,30 +55,33 @@ $(document).ready(function() {
       }
     ]
   });
-  let resize = $(window).width();
-  if (resize <= 460) {
-    $(".header__navigation").hide();
-    $(".cross").hide();
-    $(".toggle-menu").hide();
-    $(".hamburger").show();
-    $(".hamburger").on("click", function() {
-      $(".toggle-menu").slideToggle("slow", function() {
-        $(".hamburger").hide();
-        $(".cross").show();
+  $(window).resize(function() {
+    let windowsWidth = $(window).width();
+    if (windowsWidth <= 460) {
+      $(".header__navigation").hide();
+      $(".cross").hide();
+      $(".toggle-menu").hide();
+      $(".hamburger").show();
+      $(".hamburger").on("click", function() {
+        $(".toggle-menu").slideToggle("slow", function() {
+          $(".hamburger").hide();
+          $(".cross").show();
+        });
       });
-    });
 
-    $(".cross").on("click", function() {
-      $(".toggle-menu").slideToggle("slow", function() {
-        $(".cross").hide();
-        $(".hamburger").show();
+      $(".cross").on("click", function() {
+        $(".toggle-menu").slideToggle("slow", function() {
+          $(".cross").hide();
+          $(".hamburger").show();
+        });
       });
-    });
-  } else {
-    $(".header__navigation").show();
-    $(".cross").hide();
-    $(".toggle-menu").hide();
-    $(".hamburger").hide();
-  }
+    } else {
+      $(".header__navigation").show();
+      $(".cross").hide();
+      $(".toggle-menu").hide();
+      $(".hamburger").hide();
+    }
+  });
+
   baguetteBox.run(".references__gallery");
 });

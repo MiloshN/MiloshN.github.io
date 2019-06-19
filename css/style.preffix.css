@@ -445,8 +445,7 @@ body {
 .references {
   width: 100%;
   height: auto;
-  margin-bottom: 10rem;
-   }
+  margin-bottom: 10rem; }
   @media only screen and (max-width: 90em) {
     .references {
       margin-bottom: 10rem; } }
@@ -496,6 +495,8 @@ body {
     @media only screen and (max-width: 26.6em) {
       .references__gallery {
         margin-bottom: 4rem; } }
+    .references__gallery-hidden {
+      display: none; }
     .references__gallery > a {
       width: 32%;
       height: auto;

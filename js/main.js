@@ -55,13 +55,7 @@ $(document).ready(function() {
       }
     ]
   });
-  $(window).resize(function() {
-    let windowsWidth = $(window).width();
-    if (windowsWidth <= 460) {
-      $(".header__navigation").hide();
-      $(".cross").hide();
-      $(".toggle-menu").hide();
-      $(".hamburger").show();
+
       $(".hamburger").on("click", function() {
         $(".toggle-menu").slideToggle("slow", function() {
           $(".hamburger").hide();
@@ -75,13 +69,6 @@ $(document).ready(function() {
           $(".hamburger").show();
         });
       });
-    } else {
-      $(".header__navigation").show();
-      $(".cross").hide();
-      $(".toggle-menu").hide();
-      $(".hamburger").hide();
-    }
-  });
 
   baguetteBox.run(".references__gallery");
 });

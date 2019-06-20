@@ -1,7 +1,7 @@
 :root {
   --primary-bg-color: #131313;
   --color-dark: #222224;
-  --color-white: white;
+  --color-white: #dbdbdb;
   --color-primary: #ff5a1d; }
 
 * {
@@ -21,7 +21,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Muli Light", sans-serif;
   line-height: 1.6;
   min-height: 100vh;
   background-color: var(--primary-bg-color); }
@@ -43,119 +43,98 @@ body {
   overflow: hidden; }
 
 .toggle-1 {
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background: white;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 5px; }
+  width: 50px;
+  height: 50px;
+  fill: #dbdbdb; }
   @media only screen and (max-width: 64em) {
     .toggle-1 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
   @media only screen and (max-width: 90em) {
     .toggle-1 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
 
 .toggle-2 {
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background: white;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 5px; }
+  width: 50px;
+  height: 50px;
+  fill: #dbdbdb; }
   @media only screen and (max-width: 64em) {
     .toggle-2 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
   @media only screen and (max-width: 90em) {
     .toggle-2 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
 
 .toggle-3 {
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background: white;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 5px; }
+  width: 50px;
+  height: 50px;
+  fill: #dbdbdb; }
   @media only screen and (max-width: 64em) {
     .toggle-3 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
   @media only screen and (max-width: 90em) {
     .toggle-3 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
 
 .toggle-4 {
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background: white;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 5px; }
+  width: 50px;
+  height: 50px;
+  fill: #dbdbdb; }
   @media only screen and (max-width: 64em) {
     .toggle-4 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
   @media only screen and (max-width: 90em) {
     .toggle-4 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
 
 .toggle-5 {
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background: white;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 5px; }
+  width: 50px;
+  height: 50px;
+  fill: #dbdbdb; }
   @media only screen and (max-width: 64em) {
     .toggle-5 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
   @media only screen and (max-width: 90em) {
     .toggle-5 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
 
 .toggle-6 {
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background: white;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 5px; }
+  width: 50px;
+  height: 50px;
+  fill: #dbdbdb; }
   @media only screen and (max-width: 64em) {
     .toggle-6 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
   @media only screen and (max-width: 90em) {
     .toggle-6 {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
 
 .toggle-rotate {
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background: var(--color-primary);
-  width: 2rem;
-  height: 2rem;
-  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  fill: #ff5a1d;
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg); }
   @media only screen and (max-width: 64em) {
     .toggle-rotate {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
   @media only screen and (max-width: 90em) {
     .toggle-rotate {
-      width: 1.5rem;
-      height: 1.5rem; } }
+      width: 30px;
+      height: 30px; } }
 
 @media only screen and (max-width: 20em) {
   .slick-track {
@@ -310,7 +289,7 @@ body {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  margin-bottom: 15rem; }
+  margin-bottom: 30rem; }
   @media only screen and (max-width: 90em) {
     .header {
       margin-bottom: 10rem; } }
@@ -378,7 +357,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: var(--color-white);
-  margin-bottom: 15rem; }
+  margin-bottom: 30rem; }
   @media only screen and (max-width: 90em) {
     .main-section {
       margin-bottom: 10rem; } }
@@ -445,7 +424,7 @@ body {
 .references {
   width: 100%;
   height: auto;
-  margin-bottom: 10rem; }
+  margin-bottom: 30rem; }
   @media only screen and (max-width: 90em) {
     .references {
       margin-bottom: 10rem; } }
@@ -457,7 +436,7 @@ body {
     .references {
       height: auto; } }
   .references__heading-one {
-    font-size: 3rem;
+    font-size: 50px;
     position: relative;
     font-family: "Muli";
     font-weight: bold;
@@ -468,13 +447,13 @@ body {
     height: auto; }
     @media only screen and (max-width: 160em) {
       .references__heading-one {
-        font-size: 3rem; } }
+        font-size: 30px; } }
     @media only screen and (max-width: 90em) {
       .references__heading-one {
-        font-size: 2rem; } }
+        font-size: 20px; } }
     @media only screen and (max-width: 64em) {
       .references__heading-one {
-        font-size: 1.8rem; } }
+        font-size: 18px; } }
     @media only screen and (max-width: 26.6em) {
       .references__heading-one {
         margin-bottom: 5rem; } }
@@ -491,7 +470,8 @@ body {
           width: 3rem; } }
   .references__gallery {
     width: 100%;
-    margin-bottom: 8rem; }
+    margin-bottom: 8rem;
+    cursor: pointer; }
     @media only screen and (max-width: 26.6em) {
       .references__gallery {
         margin-bottom: 4rem; } }
@@ -512,7 +492,7 @@ body {
           margin: 6px 3px; } }
       @media only screen and (max-width: 26.6em) {
         .references__gallery > a {
-          width: 49%;
+          width: 99%;
           margin: 6px 1px; } }
       @media only screen and (max-width: 20em) {
         .references__gallery > a {
@@ -579,12 +559,12 @@ body {
       margin-bottom: 25rem; } }
   @media only screen and (max-width: 48em) {
     .about-us {
-      margin-bottom: 10rem; } }
+      margin-bottom: 15rem; } }
   @media only screen and (max-width: 26.6em) {
     .about-us {
       margin-bottom: 0; } }
   .about-us__heading-one {
-    font-size: 5rem;
+    font-size: 50px;
     position: relative;
     font-family: "Muli";
     font-weight: bold;
@@ -595,17 +575,18 @@ body {
     width: auto; }
     @media only screen and (max-width: 160em) {
       .about-us__heading-one {
-        font-size: 3rem; } }
+        font-size: 30px; } }
     @media only screen and (max-width: 90em) {
       .about-us__heading-one {
-        font-size: 2rem;
+        font-size: 20px;
         margin-bottom: 10rem; } }
     @media only screen and (max-width: 64em) {
       .about-us__heading-one {
-        font-size: 1.8rem; } }
+        font-size: 18px; } }
     @media only screen and (max-width: 26.6em) {
       .about-us__heading-one {
-        margin-bottom: 3rem; } }
+        margin-bottom: 3rem;
+        margin-top: 1rem; } }
     .about-us__heading-one::before {
       content: "";
       position: absolute;
@@ -632,8 +613,14 @@ body {
                 flex-direction: column;
         height: auto; } }
     .about-us-main__desc {
-      width: 50%; }
+      width: 60%; }
+      @media only screen and (max-width: 90em) {
+        .about-us-main__desc {
+          width: 40%; } }
       @media only screen and (max-width: 26.6em) {
+        .about-us-main__desc {
+          width: 100%; } }
+      @media only screen and (max-width: 24.4em) {
         .about-us-main__desc {
           width: 100%; } }
       .about-us-main__desc > p {
@@ -646,7 +633,7 @@ body {
         width: 67%; }
         @media only screen and (max-width: 160em) {
           .about-us-main__desc > p {
-            width: 45%;
+            width: 70%;
             font-size: 2.5rem; } }
         @media only screen and (max-width: 90em) {
           .about-us-main__desc > p {
@@ -659,14 +646,14 @@ body {
             width: 100%;
             margin-bottom: 5rem; } }
     .about-us-main__worker {
-      width: 50%; }
+      width: 40%; }
       @media only screen and (max-width: 26.6em) {
         .about-us-main__worker {
           width: 100%; } }
       .about-us-main__worker > div {
         width: calc(70rem - (-60rem));
         height: 70rem;
-        background: url("../img/img-1.jpg");
+        background: url("../img/worker-1.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -680,10 +667,10 @@ body {
             right: -71rem; } }
         @media only screen and (max-width: 90em) {
           .about-us-main__worker > div {
-            right: -65rem; } }
+            right: -70rem; } }
         @media only screen and (max-width: 64em) {
           .about-us-main__worker > div {
-            right: -65rem;
+            right: -70rem;
             top: -11rem;
             height: 50rem; } }
         @media only screen and (max-width: 48em) {
@@ -709,7 +696,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 15rem;
+  margin-bottom: 30rem;
   width: 100%; }
   @media only screen and (max-width: 90em) {
     .our-services {
@@ -724,7 +711,10 @@ body {
   .our-services__worker {
     width: 70rem;
     height: 80rem;
-    background: red; }
+    background: url("../img/worker-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
     @media only screen and (max-width: 160em) {
       .our-services__worker {
         width: 40rem;
@@ -762,7 +752,7 @@ body {
       .our-services-text {
         width: 100%; } }
     .our-services-text__heading-one {
-      font-size: 5rem;
+      font-size: 50px;
       position: relative;
       font-family: "Muli";
       font-weight: bold;
@@ -772,14 +762,14 @@ body {
       margin-left: 7rem; }
       @media only screen and (max-width: 160em) {
         .our-services-text__heading-one {
-          font-size: 3rem; } }
+          font-size: 30px; } }
       @media only screen and (max-width: 90em) {
         .our-services-text__heading-one {
-          font-size: 2rem;
+          font-size: 20px;
           margin-bottom: 5rem; } }
       @media only screen and (max-width: 64em) {
         .our-services-text__heading-one {
-          font-size: 1.8rem;
+          font-size: 18px;
           margin-left: 6.5rem; } }
       .our-services-text__heading-one::before {
         content: "";
@@ -861,15 +851,18 @@ body {
           padding-bottom: 1rem; } }
 
 .partners {
-  padding-bottom: 10rem; }
+  margin-bottom: 30rem; }
+  @media only screen and (max-width: 90em) {
+    .partners {
+      margin-bottom: 15rem; } }
   @media only screen and (max-width: 26.6em) {
     .partners {
-      margin-bottom: 0; } }
+      margin-bottom: 5rem; } }
   @media only screen and (max-width: 20em) {
     .partners {
       margin-bottom: 2rem; } }
   .partners__heading-one {
-    font-size: 5rem;
+    font-size: 50px;
     margin-top: 1rem;
     position: relative;
     font-family: "Muli";
@@ -880,15 +873,15 @@ body {
     margin-left: 7rem; }
     @media only screen and (max-width: 160em) {
       .partners__heading-one {
-        font-size: 3rem;
+        font-size: 30px;
         margin-bottom: 10rem; } }
     @media only screen and (max-width: 90em) {
       .partners__heading-one {
-        font-size: 2rem;
+        font-size: 20px;
         margin-bottom: 8rem; } }
     @media only screen and (max-width: 64em) {
       .partners__heading-one {
-        font-size: 1.8rem;
+        font-size: 18px;
         margin-left: 6.5rem; } }
     @media only screen and (max-width: 26.6em) {
       .partners__heading-one {
@@ -923,7 +916,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 15rem; }
+  margin-bottom: 30rem; }
   @media only screen and (max-width: 90em) {
     .contact-us {
       margin-bottom: 8rem; } }
@@ -960,7 +953,7 @@ body {
         .contact-us__info > address {
           font-size: 1.3rem; } }
     .contact-us__info-heading-one {
-      font-size: 5rem;
+      font-size: 50px;
       position: relative;
       font-family: "Muli";
       font-weight: bold;
@@ -970,15 +963,15 @@ body {
       margin-left: 7rem; }
       @media only screen and (max-width: 160em) {
         .contact-us__info-heading-one {
-          font-size: 3rem;
+          font-size: 30px;
           margin-bottom: 7rem; } }
       @media only screen and (max-width: 90em) {
         .contact-us__info-heading-one {
-          font-size: 2rem;
+          font-size: 20px;
           margin-bottom: 5rem; } }
       @media only screen and (max-width: 64em) {
         .contact-us__info-heading-one {
-          font-size: 1.8rem; } }
+          font-size: 18px; } }
       .contact-us__info-heading-one::before {
         content: "";
         position: absolute;

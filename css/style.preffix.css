@@ -1,3 +1,4 @@
+
 :root {
   --primary-bg-color: #131313;
   --color-dark: #222224;
@@ -683,7 +684,23 @@ body {
             width: 100%;
             right: 0;
             top: 0;
-            position: static; } }
+            position: static;
+            background: url("../img/compress-worker-1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover; } }
+        @media only screen and (max-width: 24.4em) {
+          .about-us-main__worker > div {
+            background: url("../img/compress-worker-1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover; } }
+        @media only screen and (max-width: 20em) {
+          .about-us-main__worker > div {
+            background: url("../img/compress-worker-1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover; } }
 
 .our-services {
   display: -webkit-box;
@@ -725,12 +742,26 @@ body {
         height: 40rem; } }
     @media only screen and (max-width: 26.6em) {
       .our-services__worker {
-        margin: 0 auto; } }
+        margin: 0 auto;
+        background: url("../img/compress-worker-2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; } }
+    @media only screen and (max-width: 24.4em) {
+      .our-services__worker {
+        background: url("../img/compress-worker-2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; } }
     @media only screen and (max-width: 20em) {
       .our-services__worker {
         margin: 0 auto;
         width: 100%;
-        height: 35rem; } }
+        height: 35rem;
+        background: url("../img/compress-worker-2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; } }
   .our-services-text {
     display: -webkit-box;
     display: -ms-flexbox;

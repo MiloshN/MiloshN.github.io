@@ -187,15 +187,15 @@ body {
   @media only screen and (max-width: 90em) {
     .header {
       margin-bottom: 10rem; } }
-  .header__logo > img {
+  .header__logo > a > img {
     width: 22.7rem;
     height: 2.46875rem; }
     @media only screen and (max-width: 160em) {
-      .header__logo > img {
+      .header__logo > a > img {
         width: 34rem;
         height: 3.75rem; } }
     @media only screen and (max-width: 90em) {
-      .header__logo > img {
+      .header__logo > a > img {
         width: 20.6em;
         height: 2.25rem; } }
   .header__navigation-items {

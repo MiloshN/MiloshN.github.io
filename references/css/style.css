@@ -17,10 +17,12 @@ COLORS
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth; }
 
@@ -168,10 +170,19 @@ body {
   width: 100%;
   height: auto;
   padding-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   margin-bottom: 15rem; }
   @media only screen and (max-width: 90em) {
     .header {
@@ -189,8 +200,13 @@ body {
         height: 2.25rem; } }
   .header__navigation-items {
     list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     line-height: 1.5;
     font-size: 1.8rem;
     color: var(--color-white); }
@@ -327,10 +343,16 @@ body {
             padding-top: 0.1rem;
             font-size: 0.9rem; } }
   .references__cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     .references__cta a {
-      align-items: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       margin: 0 auto;
       text-decoration: none;
       text-transform: uppercase;
@@ -347,19 +369,34 @@ body {
           font-size: 1rem; } }
 
 .contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 15rem; }
   @media only screen and (max-width: 90em) {
     .contact-us {
       margin-bottom: 8rem; } }
   @media only screen and (max-width: 26.6em) {
     .contact-us {
-      flex-direction: column; } }
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
   .contact-us__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
     .contact-us__info > p {
       color: var(--color-white);
       line-height: 1.422;
@@ -420,7 +457,8 @@ body {
       padding: 3rem;
       margin: 1rem 0;
       color: var(--color-white);
-      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
       font-size: 1rem;
       padding: 2rem;
       background-color: var(--color-dark);
@@ -432,6 +470,24 @@ body {
       @media only screen and (max-width: 90em) {
         .contact-us__form input {
           font-size: 1.5rem; } }
+      .contact-us__form input::-webkit-input-placeholder {
+        font-size: 1rem;
+        font-family: "Muli ExtraLight";
+        line-height: 1.35;
+        opacity: 0.5;
+        color: var(--color-white); }
+      .contact-us__form input:-ms-input-placeholder {
+        font-size: 1rem;
+        font-family: "Muli ExtraLight";
+        line-height: 1.35;
+        opacity: 0.5;
+        color: var(--color-white); }
+      .contact-us__form input::-ms-input-placeholder {
+        font-size: 1rem;
+        font-family: "Muli ExtraLight";
+        line-height: 1.35;
+        opacity: 0.5;
+        color: var(--color-white); }
       .contact-us__form input::placeholder {
         font-size: 1rem;
         font-family: "Muli ExtraLight";
@@ -439,9 +495,21 @@ body {
         opacity: 0.5;
         color: var(--color-white); }
         @media only screen and (max-width: 160em) {
+          .contact-us__form input::-webkit-input-placeholder {
+            font-size: 2rem; }
+          .contact-us__form input:-ms-input-placeholder {
+            font-size: 2rem; }
+          .contact-us__form input::-ms-input-placeholder {
+            font-size: 2rem; }
           .contact-us__form input::placeholder {
             font-size: 2rem; } }
         @media only screen and (max-width: 90em) {
+          .contact-us__form input::-webkit-input-placeholder {
+            font-size: 1.5rem; }
+          .contact-us__form input:-ms-input-placeholder {
+            font-size: 1.5rem; }
+          .contact-us__form input::-ms-input-placeholder {
+            font-size: 1.5rem; }
           .contact-us__form input::placeholder {
             font-size: 1.5rem; } }
     .contact-us__form textarea {
@@ -450,7 +518,8 @@ body {
       margin: 1rem 0;
       color: var(--color-white);
       resize: vertical;
-      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
       background: var(--color-dark);
       border: none;
       font-size: 1rem; }
@@ -460,6 +529,27 @@ body {
       @media only screen and (max-width: 90em) {
         .contact-us__form textarea {
           font-size: 2rem; } }
+      .contact-us__form textarea::-webkit-input-placeholder {
+        font-size: 1.3rem;
+        font-family: "Muli ExtraLight";
+        line-height: 1.35;
+        opacity: 0.5;
+        text-align: left;
+        color: var(--color-white); }
+      .contact-us__form textarea:-ms-input-placeholder {
+        font-size: 1.3rem;
+        font-family: "Muli ExtraLight";
+        line-height: 1.35;
+        opacity: 0.5;
+        text-align: left;
+        color: var(--color-white); }
+      .contact-us__form textarea::-ms-input-placeholder {
+        font-size: 1.3rem;
+        font-family: "Muli ExtraLight";
+        line-height: 1.35;
+        opacity: 0.5;
+        text-align: left;
+        color: var(--color-white); }
       .contact-us__form textarea::placeholder {
         font-size: 1.3rem;
         font-family: "Muli ExtraLight";
@@ -468,9 +558,21 @@ body {
         text-align: left;
         color: var(--color-white); }
         @media only screen and (max-width: 160em) {
+          .contact-us__form textarea::-webkit-input-placeholder {
+            font-size: 1.5rem; }
+          .contact-us__form textarea:-ms-input-placeholder {
+            font-size: 1.5rem; }
+          .contact-us__form textarea::-ms-input-placeholder {
+            font-size: 1.5rem; }
           .contact-us__form textarea::placeholder {
             font-size: 1.5rem; } }
         @media only screen and (max-width: 90em) {
+          .contact-us__form textarea::-webkit-input-placeholder {
+            font-size: 1.3rem; }
+          .contact-us__form textarea:-ms-input-placeholder {
+            font-size: 1.3rem; }
+          .contact-us__form textarea::-ms-input-placeholder {
+            font-size: 1.3rem; }
           .contact-us__form textarea::placeholder {
             font-size: 1.3rem; } }
     .contact-us__form input[type="submit"] {
@@ -521,11 +623,18 @@ body {
         width: 100%; } }
     .footer__social-icons-list-items {
       list-style-type: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: row; }
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
       @media only screen and (max-width: 26.6em) {
         .footer__social-icons-list-items {
-          justify-content: center; } }
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; } }
       .footer__social-icons-list-items-item {
         margin-left: 2rem; }
         @media only screen and (max-width: 20em) {

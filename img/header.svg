@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1000" viewBox="0 0 1920 1000">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.557" y1="0.38" x2="0.842" y2="0.38" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd148"/>
+      <stop offset="0.1" stop-color="#ffd148"/>
+      <stop offset="0.2" stop-color="#f8d147"/>
+      <stop offset="0.3" stop-color="#edd147"/>
+      <stop offset="0.4" stop-color="#e3d146"/>
+      <stop offset="0.596" stop-color="#d8d046"/>
+      <stop offset="1" stop-color="#a2cf44"/>
+    </linearGradient>
+    <clipPath id="clip-export_header">
+      <rect width="1920" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="export_header" data-name="export header" clip-path="url(#clip-export_header)">
+    <rect width="1920" height="1000" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1" transform="matrix(0.189, 0.982, -0.982, 0.189, 2011.197, 76.05)">
+      <path id="Path_1" data-name="Path 1" d="M-800.5,1924.338-580.639-444l1552.2,620.027L549.436,2401.012Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_256" data-name="Group 256" transform="translate(1432.768 479.265) rotate(7)">
+      <path id="Path_314" data-name="Path 314" d="M0,162.947l756,3.522V-166.09Z" transform="translate(0 166.09)" fill="#fff"/>
+    </g>
+    <g id="Group_257" data-name="Group 257" transform="translate(1746.928 396.194) rotate(7)">
+      <path id="Path_315" data-name="Path 315" d="M224.982,0l-454.3,194.106,454.3,2.219Z" transform="translate(229.322)" fill="#a2cf44"/>
+    </g>
+    <g id="Group_259" data-name="Group 259" transform="matrix(-0.921, 0.391, -0.391, -0.921, 459, 557.302)">
+      <g id="Group_256-2" data-name="Group 256" transform="translate(0 0)">
+        <path id="Path_314-2" data-name="Path 314" d="M0,2.6,557.486,0V245.234Z" fill="#0b3967"/>
+      </g>
+    </g>
+    <g id="Group_260" data-name="Group 260" transform="matrix(-0.921, 0.391, -0.391, -0.921, 323.109, 512.856)">
+      <g id="Group_256-3" data-name="Group 256" transform="translate(0 0)">
+        <path id="Path_314-3" data-name="Path 314" d="M0,1.739,373.338,0V164.229Z" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_506" data-name="Group 506" transform="translate(973 -111.959) rotate(-31)">
+      <g id="Group_256-4" data-name="Group 256" transform="translate(0 0)">
+        <path id="Path_314-4" data-name="Path 314" d="M0,325.419,584.1,328.9V0Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_505" data-name="Group 505" transform="translate(1526.338 62.509) rotate(-22)">
+      <g id="Group_256-5" data-name="Group 256" transform="translate(0 0)">
+        <path id="Path_314-5" data-name="Path 314" d="M0,161.508l444.022,1.729V0Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_507" data-name="Group 507" transform="translate(1248.014 -46.734) rotate(-29)">
+      <g id="Group_256-6" data-name="Group 256" transform="translate(0 0)">
+        <path id="Path_314-6" data-name="Path 314" d="M0,161.508l444.022,1.729V0Z" transform="translate(0 0)" fill="#0b3967"/>
+      </g>
+    </g>
+  </g>
+</svg>

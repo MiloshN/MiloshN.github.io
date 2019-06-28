@@ -5,20 +5,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Wingert Event</title>
-    <link rel="stylesheet" href="style.0bec9357abfb24fb75f9.css?cdd9c442dc40f2f984c1" />
+    <link rel="stylesheet" href="style.4a419fb90b94412bf24d.css?fd4ff2248138445985da" />
     <link href="https://fonts.googleapis.com/css?family=Overpass:400,700i&display=swap" rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <div class="container-fluid overflow-hidden mb-5" id="slider">
-            <div class="navbar flex-row d-flex justify-content-between align-items-center fixed-top">
+
+        <!--<nav>
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">Presse</a>
+            <a href="#">Organisation</a>
+            <a href="#">Sponsoren</a>
+        </nav>-->
+
+
+
+
+
+        <div class="container-fluid overflow-hidden mb-5 container-fluid-header" id="slider">
+            <div class="navbar flex-row d-flex justify-content-between align-items-center fixed-top" id="navbar">
                 <a class="navbar-brand" href="/">
-                    <img src="./img/Logo_WE.png" width="190" height="90" alt="" />
+                    <img src="./img/Logo_WE.png" width="190" height="90" alt="" class="img-fluid" />
                 </a>
                 <a href="/" class="mx-auto">
-                    <img src="./img/Anmeldung.png" width="250" height="58.3"/>
-                    <!--<img src="../src/img/shortlogo.png" width="150" height="50.3" class="d-md-none d-lg-none d-xl-none" />-->
+                    <img src="./img/Anmeldung.png" width="250" height="58.3" alt="" class="img-fluid" />
                 </a>
                 <button class="navbar-toggler" type="button">
                     <span class="navbar-toggler-icon"></span>
@@ -28,7 +40,7 @@
                 <div class="f-walker"></div>
                 <div class="m-walker"></div>
             </div>
-            <div class="row clients-row py-4 px-3">
+            <div class="row clients-row py-4 px-3 client-slider slick-slider-clients">
                 <div class="col">
                     <img src="./img/clients/c-1.png" alt="" />
                 </div>
@@ -105,7 +117,7 @@
             <div class="container">
                 <h2 class="py-5">Strecken</h2>
                 <div class="row">
-                    <div class="col d-flex flex-column z-index-left">
+                    <div class="col d-flex flex-column">
                         <div class="d-flex flex-row clearfix mb-5">
                             <div class="flag-yellow float-left mr-4">
                                 <span class="align-middle px-3">16km</span>
@@ -133,29 +145,76 @@
                     </div>
                 </div>
             </div>
-            <div class="map-img z-index-right">
-                <img src="./img/mapa.png" alt="" />
-            </div>
         </section>
         <section class="contact-us overflow-hidden py-5">
             <div class="container">
                 <div class="row">
                     <div class="col contact-info my-5">
-                        <span>Auskunft/Anmeldung</span><br /> Claudio Hauser <br /> Taminserstrasse 30, 7012 Felsberg <br /> Telefon 079 200 11 75 <br /> E-Mail anmeldung@wingert-event.ch <br /> Internet www.wingert-event.ch <br /> Anmeldeschluss ist
-                        Donnerstag 13. September 2018. <br /> Nach­meldungen bis 1 Stunde vor Beginn sind möglich (Preisaufschlag CHF 5.—).<br /></div>
+                        <span class="d-block heading">Auskunft/Anmeldung</span> <span class="d-block my-1">Claudio Hauser</span> <span class="d-block mb-3">Taminserstrasse 30, 7012 Felsberg</span><span class="d-block">Telefon 079 200 11 75 </span> <span class="d-block">E-Mail anmeldung@wingert-event.ch </span> <span class="d-block mb-3">Internet www.wingert-event.ch </span><span class="d-block"> Anmeldeschluss ist
+                        Donnerstag 13. September 2018. </span> <span class="d-block">Nach­meldungen bis 1 Stunde vor Beginn sind möglich (Preisaufschlag CHF 5.—).</span>
+                    </div>
                     <div class="col my-5">
-                        <!--<form>
+                        <form> 
                             <div class="form-group">
-                                <label class="frau">
-                                    <input type="radio" name="gender" value="frau">
-                                    <span>Frau</span>
-                                </label>
-                                <label class="herr">
-                                    <input type="radio" name="gender" value="herr" checked="checked">
-                                    <span>Herr</span>
-                                </label>
+                                <p class="d-inline mr-2">
+                                    <input type="radio" id="frau" name="gender" checked>
+                                    <label for="frau">Frau</label>
+                                </p>
+                                <p class="d-inline mr-2">
+                                    <input type="radio" id="herr" name="gender">
+                                    <label for="herr">Herr</label>
+                                </p>
                             </div>
-                        </form>-->
+                            <div class="form-group form-inputs">
+                                <div class="container-fluid">
+                                    <div class="row my-2">
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Müller">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Vorname">
+                                        </div>
+                                    </div>
+                                    <div class="row my-2">
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Geburtsdatum">
+                                        </div>
+                                    </div>
+                                    <div class="row my-2">
+                                        <div class="col-8">
+                                            <input type="text" class="form-control" placeholder="Strasse">
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="text" class="form-control" placeholder="Nr">
+                                        </div>
+                                    </div>
+                                    <div class="row my-2">
+                                        <div class="col-4">
+                                            <input type="text" class="form-control" placeholder="Plz">
+                                        </div>
+                                        <div class="col-8">
+                                            <input type="text" class="form-control" placeholder="Ort">
+                                        </div>
+                                    </div>
+                                    <div class="row my-2">
+                                        <div class="col">
+                                            <input type="email" class="form-control" placeholder="Plz">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <p class="d-inline mr-2">
+                                    <input type="radio" id="8km" name="km">
+                                    <label for="8km">8km</label>
+                                </p>
+                                <p class="d-inline mr-2">
+                                    <input type="radio" id="16km" name="km" checked>
+                                    <label for="16km">16km</label>
+                                </p>
+                            </div>
+                            <input type="submit" value="Anmelden"/>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -164,49 +223,67 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h5>Anreise</h5><br/>
+                        <h5><span class="d-block">Anreise</span></h5>
                         <p>
                             Ab Chur mit Bus Linie 1 bis Haltestelle Brugg oder mit der Rhätischen Bahn bis Bahnhof Felsberg, 5 Gehminuten bis zum Start.
                         </p>
                     </div>
-                    <div class="col"></div>
+                    <div class="col">
+                        <div class="container-fluid">
+                            <div class="row mb-5">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Von">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <!--<input placeholder="< So,. 22.09.2019 >" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">-->
+                                    a
+                                </div>   
+                                <div class="col-3">
+                                    <!--<input placeholder="15:28" type="text" onfocus="(this.type='time')" onblur="(this.type='text')" id="time">-->
+                                    a
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col"></div>
                 </div>
             </div>
         </section>
     </main>
     <!--[if gte IE 9]
-<style type="text/css">
-.gradient {
-filter: none;
-}
-</style>
-<![endif]-->
+        <style type="text/css">
+            .gradient {
+                filter: none;
+            }
+        </style>
+    <![endif]-->
     <footer>
         <div class="container overflow-hidden py-5">
             <div class="row d-flex align-items-end">
-                <div class="col d-flex align-items-end">
+                <div class="col col-xs-12">
                     <address>
                         Claudio Hauser <br />
-Taminserstrasse 30, 7012 Felsberg <br />
-Telefon   079 200 11 75 <br />
-E-Mail    anmeldung@wingert-event.ch
+                        Taminserstrasse 30, 7012 Felsberg <br />
+                        Telefon   079 200 11 75 <br />
+                        E-Mail    anmeldung@wingert-event.ch
                     </address>
                 </div>
-                <div class="col d-flex align-items-end">
+                <div class="col col-xs-12">
                     <ul class="list-inline ">
                     <li class="list-inline-item">Impressum</li>
                     <li class="list-inline-item">Kontakt</li>
                     <li class="list-inline-item">Datenschutz </li>
                 </ul></div>
-                <div class="col">
+                <div class="col col-xs-12">
                     <img src="./img/trophy.png" alt="" class="img-fluid" />
                 </div>
             </div>
         </div>
         <a href="#slider"><img src="./img/up-arrow.svg" alt="" class="arrow-up"/></a>
     </footer>
-    <script defer src="main.b67e5dac2ff67e9ce2be.js?cdd9c442dc40f2f984c1"></script>
+    <script defer src="main.0e38f1579d642540e9eb.js?fd4ff2248138445985da"></script>
 </body>
 
 </html>

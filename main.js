@@ -100,7 +100,9 @@ $(document).ready(function() {
       .removeClass("normal-list");
     $(".contact-list")
       .children()
-      .addClass("list-inline-item");
+      .addClass("list-inline-item")
+      .children()
+      .css({ color: "#cdd2d6" });
   } else {
     $(".contact-list")
       .removeClass("list-inline")
@@ -109,26 +111,17 @@ $(document).ready(function() {
       .children()
       .removeClass("list-inline-item");
   }
+
   let currentVal = false;
   $(".hamburger").on("click", function() {
     $(this).toggleClass("hamburger-active");
     currentVal = !currentVal;
     if (currentVal) {
       $(".hamburger-nav").css({ display: "block" });
-      $(".hamburger-nav").animate({ width: "150%" });
-      let withValue = $(window).width();
-      if (withValue <= 455) {
-        $(".hamburger-nav").animate({ width: "159%" }, 0);
-      }
-      if (withValue <= 415) {
-        $(".hamburger-nav").animate({ width: "165%" }, 0);
-      }
-      if (withValue <= 333) {
-        $(".hamburger-nav").animate({ width: "180%" }, 0);
-      }
+      $(".hamburger-nav").animate({ height: "350%" });
     } else {
       $(".hamburger-nav").css({ display: "none" });
-      $(".hamburger-nav").animate({ width: "0%" });
+      $(".hamburger-nav").animate({ height: "0%" });
     }
   });
 });

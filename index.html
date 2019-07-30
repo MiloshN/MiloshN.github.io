@@ -36,7 +36,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
     />
     <!-- Custon style -->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.min.css" />
 
     <title>Brandi | I’am your tag line</title>
   </head>
@@ -673,7 +674,8 @@
                           type="email"
                           class="form-control"
                           id="inputEmail4"
-                          placeholder="Email"
+                          placeholder="Email" 
+                          required
                         />
                       </div>
                       <div class="form-group col-6">
@@ -681,6 +683,7 @@
                           type="password"
                           class="form-control"
                           placeholder="Password"
+                          required
                         />
                       </div>
                     </div>
@@ -690,6 +693,7 @@
                             type="text"
                             class="form-control"
                             placeholder="Message"
+                            required
                           />
                         </div>
                     </div>
@@ -733,7 +737,16 @@ consequat.
             </h4>
             <form class="footer__form">
                 <div class="form-group">   
-                    <input type="email" class="form-control">
+                    <input type="email" class="form-control" required>
+                    <label>
+                        <input type="submit" value=""><svg 
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="19px" height="14px">
+                     <path fill-rule="evenodd"  stroke-width="1px" stroke="rgb(255, 255, 255)" fill="rgb(255, 255, 255)"
+                      d="M18.341,6.781 L18.341,6.781 L18.496,6.930 L12.549,13.499 L12.238,13.200 L18.045,6.786 L18.040,6.781 L0.500,6.781 L0.500,6.343 L17.616,6.343 L12.244,0.805 L12.544,0.496 L18.216,6.343 L18.341,6.343 L18.341,6.471 L18.491,6.626 L18.341,6.781 L18.341,6.781 Z"/>
+                     </svg></label>
+                    
                     <small id="emailHelp" class="form-text">eusmod tempor incididunt ut labore et dolore magna aliqua. </small>
                   </div>
             </form>

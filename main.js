@@ -12,7 +12,7 @@ $(".features-slider").slick({
   slidesToScroll: 3,
   dots: true,
   arrows: false,
-  autoplay: true,
+  //autoplay: true,
   responsive: [
     {
       breakpoint: 991,

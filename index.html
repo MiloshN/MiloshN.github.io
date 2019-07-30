@@ -44,9 +44,9 @@
   <body>
     <header class="fixed-top">
       <div class="container">
-        <nav class="navbar navbar-light">
-          <a class="navbar-brand" href="#">
-            Brandi <span class="ml-4">| I’am your tag line</span>
+        <nav class="navbar">
+          <a class="navbar-light navbar-brand" href="#">
+            Brandi <span class="navbar-span ml-4">| I’am your tag line</span>
           </a>
           <ul class="nav nav-list">
             <li class="nav-item">
@@ -101,7 +101,7 @@
             <div class="container-fluid slick-slider__container text-center">
               <div class="row">
                 <div class="col-12 slick-slider__heading-one">
-                  <h1>Meet <span>Brandi!</span></h1>
+                  <h1>Meet <span class="slick-slider__span">Brandi!</span></h1>
                 </div>
                 <div class="col-12 slick-slider__heading-two mb-5">
                   <h2><span>/creative</span> one page template.</h2>
@@ -649,7 +649,7 @@
                   </h5>
                 </div>
                 <div class="row">
-                  <address>
+                  <address class="discuss__form-address">
                     <ul class="normal-list">
                       <li>2345 Setwant natrer, 1234,</li>
                       <li>Washington. United States.</li>
@@ -668,22 +668,19 @@
                 </div>
                 <div class="row">
                   <form class="discuss__form">
-                    <div class="form-row pb-5">
-                      <div class="form-group col-6">
+                    <div class="form-row pb-1 pb-md-5 pb-lg-5 pb-sm-5 pb-xl-5">
+                      <div class="form-group col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <input
                           type="email"
                           class="form-control"
-                          id="inputEmail4"
                           placeholder="Email" 
-                          required
                         />
                       </div>
-                      <div class="form-group col-6">
+                      <div class="form-group col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <input
                           type="password"
                           class="form-control"
                           placeholder="Password"
-                          required
                         />
                       </div>
                     </div>
@@ -693,7 +690,7 @@
                             type="text"
                             class="form-control"
                             placeholder="Message"
-                            required
+
                           />
                         </div>
                     </div>
@@ -803,6 +800,7 @@ consequat.
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="./appear.js"></script>
     <!--Custom JS-->
     <script src="/main.js"></script>
   </body>
